@@ -404,6 +404,7 @@ main{
         margin: 0 auto;
         
         .section1,.section2{
+           
             >div>div{
                 width:235px ;
                 height: 615px;
@@ -413,6 +414,31 @@ main{
             }
             ul{
                 li{
+                    position: relative;
+                    overflow: hidden;
+                .pinglun{
+                transition: all 0.4s;
+                height:0px;
+               // padding: 10px ;
+               line-height: 40px;
+                overflow: hidden;
+                font-size: 20px;
+                text-align: center;
+                color: #fff;
+                width: 100%;
+                bottom: 0;
+                position: absolute;
+                background-color: orange;
+                span{
+                    margin-top: 20px;
+                    color: #E9E9E9;
+                    font-size: 18px;
+                }
+            }
+                   >div{
+                       transition: all 0.4s;
+                   }
+                     transition: all 0.4s;
                 >a>p{
                        text-align: center;
                    }
@@ -440,12 +466,21 @@ main{
                       width: 60%;
                    }
             }
+           
             }
             
                 
         }
         .section2{
+            li{
+              
+                  >div{
+                 transition: all 0.4s;
+            }
+            }
+           
             >div>div{
+               
                  width: 235px;
                     height:300px;
                     margin-bottom: 15px;
